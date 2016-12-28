@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "GetUVIndex",
+      "slots": [
+        {
+          "name": "ZipCode",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

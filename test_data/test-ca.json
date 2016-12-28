@@ -1,0 +1,848 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"NM",
+		"city":"Tijeras",
+		"tz_short":"MST",
+		"tz_long":"America/Denver",
+		"lat":"35.08000183",
+		"lon":"-106.38999939",
+		"zip":"87059",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:87059.1.99999",
+		"requesturl":"US/NM/Tijeras.html",
+		"wuiurl":"https://www.wunderground.com/US/NM/Tijeras.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Albuquerque", "state":"NM", "country":"US", "icao":"KABQ", "lat":"35.04166794", "lon":"-106.61472321" }
+		,{ "city":"Moriarty", "state":"NM", "country":"US", "icao":"K0E0", "lat":"34.98559952", "lon":"-106.00949860" }
+		,{ "city":"Albuquerque Double Eagle", "state":"NM", "country":"US", "icao":"KAEG", "lat":"35.14500046", "lon":"-106.79499817" }
+		,{ "city":"Belen", "state":"NM", "country":"US", "icao":"KE80", "lat":"34.64519882", "lon":"-106.83369446" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Cedar Crest",
+		"city":"Cedar Crest",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMCEDAR14",
+		"lat":35.095707,
+		"lon":-106.385208,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Forest Park",
+		"city":"Cedar Crest",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMCEDAR6",
+		"lat":35.118366,
+		"lon":-106.377304,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Sandia Mountain Natural History Center",
+		"city":"Cedar Crest",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMCEDAR8",
+		"lat":35.124973,
+		"lon":-106.378990,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Sierra Vista Estates",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER32",
+		"lat":35.126247,
+		"lon":-106.357277,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"East mountains",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER23",
+		"lat":35.115665,
+		"lon":-106.336449,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"NM14 & Canoncito",
+		"city":"Cedar Crest",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMCEDAR3",
+		"lat":35.134556,
+		"lon":-106.369789,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Deer Meadow Court",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER17",
+		"lat":35.101936,
+		"lon":-106.316292,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Five Hills",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER31",
+		"lat":35.095230,
+		"lon":-106.313225,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Carnuel-Silverhills",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ149",
+		"lat":35.059429,
+		"lon":-106.465607,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Nature Pointe",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER6",
+		"lat":35.105225,
+		"lon":-106.314026,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Ramble Wood, New Mexico",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER11",
+		"lat":35.015507,
+		"lon":-106.347267,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"City View Estates",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ392",
+		"lat":35.079586,
+		"lon":-106.484444,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Supper Rock",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ134",
+		"lat":35.075371,
+		"lon":-106.486435,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Eastern Foothills",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ39",
+		"lat":35.076069,
+		"lon":-106.487000,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Pinnacle View",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ336",
+		"lat":35.088436,
+		"lon":-106.486694,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"NE Heights",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ154",
+		"lat":35.096275,
+		"lon":-106.485428,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Richland Estates",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER22",
+		"lat":35.121647,
+		"lon":-106.306770,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Canyon Hills",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ206",
+		"lat":35.091862,
+		"lon":-106.488846,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Embudo Canyon",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ249",
+		"lat":35.095154,
+		"lon":-106.492226,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Embudo Canyon",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ312",
+		"lat":35.091309,
+		"lon":-106.494629,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Supper Rock",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ354",
+		"lat":35.076443,
+		"lon":-106.495804,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Embudo Canyon (NE ABQ) <br>",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ6",
+		"lat":35.102665,
+		"lon":-106.493118,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Joe & Bev Eastern Bernalillo Cty",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER2",
+		"lat":35.129555,
+		"lon":-106.299004,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Four Hills #1 @Camino Cerrito (SE ABQ)",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ4",
+		"lat":35.046799,
+		"lon":-106.492149,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Oakmont Ridge",
+		"city":"Sandia Park",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMSANDI31",
+		"lat":35.148556,
+		"lon":-106.318260,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Heatherland Hills",
+		"city":"Tijeras",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMTIJER30",
+		"lat":35.023727,
+		"lon":-106.334198,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"MAT215",
+		"lat":35.000702,
+		"lon":-106.348999,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Albuquerque",
+		"city":"Albuquerque",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMALBUQ396",
+		"lat":35.085522,
+		"lon":-106.487198,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Albuquerque",
+		"city":"Canada Village",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMCANAD2",
+		"lat":35.062626,
+		"lon":-106.488808,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Tijeras",
+		"city":"Comers",
+		"state":"NM",
+		"country":"US",
+		"id":"KNMCOMER2",
+		"lat":35.093510,
+		"lon":-106.284355,
+		"distance_km":9,
+		"distance_mi":5
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Tijeras, NM",
+		"city":"Tijeras",
+		"state":"NM",
+		"state_name":"New Mexico",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"87059",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"35.08000183",
+		"longitude":"-106.38999939",
+		"elevation":"1927.6"
+		},
+		"observation_location": {
+		"full":"Cedar Crest, Cedar Crest, New Mexico",
+		"city":"Cedar Crest, Cedar Crest",
+		"state":"New Mexico",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"35.095707",
+		"longitude":"-106.385208",
+		"elevation":"6617 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KNMCEDAR14",
+		"observation_time":"Last Updated on December 27, 8:13 PM MST",
+		"observation_time_rfc822":"Tue, 27 Dec 2016 20:13:41 -0700",
+		"observation_epoch":"1482894821",
+		"local_time_rfc822":"Tue, 27 Dec 2016 20:14:02 -0700",
+		"local_epoch":"1482894842",
+		"local_tz_short":"MST",
+		"local_tz_long":"America/Denver",
+		"local_tz_offset":"-0700",
+		"weather":"Clear",
+		"temperature_string":"26.1 F (-3.3 C)",
+		"temp_f":26.1,
+		"temp_c":-3.3,
+		"relative_humidity":"73%",
+		"wind_string":"Calm",
+		"wind_dir":"SSW",
+		"wind_degrees":203,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1027",
+		"pressure_in":"30.33",
+		"pressure_trend":"+",
+		"dewpoint_string":"18 F (-8 C)",
+		"dewpoint_f":18,
+		"dewpoint_c":-8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"26 F (-3 C)",
+		"windchill_f":"26",
+		"windchill_c":"-3",
+		"feelslike_string":"26 F (-3 C)",
+		"feelslike_f":"26",
+		"feelslike_c":"-3",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/NM/Tijeras.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNMCEDAR14",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=35.095707,-106.385208",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"6:50 PM MST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Tuesday",
+		"fcttext":"Mostly clear. Lows overnight in the upper 20s.",
+		"fcttext_metric":"Partly cloudy. Low -2C.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Tuesday Night",
+		"fcttext":"A few passing clouds. Low 28F. Winds W at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds. Low -2C. Winds W at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Partly cloudy skies in the morning will give way to cloudy skies during the afternoon. High 48F. Winds WNW at 10 to 15 mph.",
+		"fcttext_metric":"Intervals of clouds and sunshine in the morning with more clouds for later in the day. High 9C. Winds WNW at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Partly to mostly cloudy. Low 28F. Winds N at 5 to 10 mph.",
+		"fcttext_metric":"Considerable clouds early. Some decrease in clouds late. Low -2C. Winds N at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Partly cloudy. High 44F. Winds SE at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy skies. High 7C. Winds SE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Thursday Night",
+		"fcttext":"A mostly clear sky. Low 24F. Winds light and variable.",
+		"fcttext_metric":"Clear skies. Low around -5C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"Sunny skies. High 44F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"A mainly sunny sky. High 7C. Winds WSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Friday Night",
+		"fcttext":"Partly cloudy skies early followed by increasing clouds with showers developing later at night. Low 32F. Winds SW at 5 to 10 mph. Chance of rain 60%.",
+		"fcttext_metric":"Partly cloudy in the evening. Increasing clouds with periods of showers after midnight. Low near 0C. Winds SW at 10 to 15 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1482890400",
+	"pretty":"7:00 PM MST on December 27, 2016",
+	"day":27,
+	"month":12,
+	"year":2016,
+	"yday":361,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"MST",
+	"tz_long":"America/Denver"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"51",
+		"celsius":"10"
+		},
+		"low": {
+		"fahrenheit":"28",
+		"celsius":"-2"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 0,
+		"kph": 0,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 2,
+		"kph": 4,
+		"dir": "SSW",
+		"degrees": 213
+		},
+		"avehumidity": 57,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1482976800",
+	"pretty":"7:00 PM MST on December 28, 2016",
+	"day":28,
+	"month":12,
+	"year":2016,
+	"yday":362,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"MST",
+	"tz_long":"America/Denver"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"low": {
+		"fahrenheit":"28",
+		"celsius":"-2"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WNW",
+		"degrees": 289
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "WNW",
+		"degrees": 289
+		},
+		"avehumidity": 47,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1483063200",
+	"pretty":"7:00 PM MST on December 29, 2016",
+	"day":29,
+	"month":12,
+	"year":2016,
+	"yday":363,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"MST",
+	"tz_long":"America/Denver"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"24",
+		"celsius":"-4"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SE",
+		"degrees": 125
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "SE",
+		"degrees": 125
+		},
+		"avehumidity": 56,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1483149600",
+	"pretty":"7:00 PM MST on December 30, 2016",
+	"day":30,
+	"month":12,
+	"year":2016,
+	"yday":364,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"MST",
+	"tz_long":"America/Denver"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"32",
+		"celsius":"0"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 249
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "WSW",
+		"degrees": 249
+		},
+		"avehumidity": 72,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
+
