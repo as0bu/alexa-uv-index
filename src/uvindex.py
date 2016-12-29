@@ -23,7 +23,6 @@ def lambda_handler(event, context):
 
 def get_encrypted_data(key):
     encrypted_key = os.environ[key]
-    print encrypted_key
     decrypted_key = boto3.client('kms').decrypt(CiphertextBlob=b64decode(
                                                 encrypted_key))['Plaintext']
     return decrypted_key
