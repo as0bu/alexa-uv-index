@@ -1,11 +1,12 @@
 import requests
 import json
-
-wunderground_api_key = ''
-application_id = ''
+import boto3
+import os
+from base64 import b64decode
 
 
 def lambda_handler(event, context):
+    application_id = get_encrypted_data('application_id')
     session_app_id = event['session']['application']['applicationId']
     request_type = event['request']['type']
     request = event['request']
@@ -18,6 +19,14 @@ def lambda_handler(event, context):
         return get_welcome_response()
     elif request_type == "IntentRequest":
         return on_intent(request, session)
+
+
+def get_encrypted_data(key):
+    encrypted_key = os.environ[key]
+    print encrypted_key
+    decrypted_key = boto3.client('kms').decrypt(CiphertextBlob=b64decode(
+                                                encrypted_key))['Plaintext']
+    return decrypted_key
 
 
 def get_welcome_response():
@@ -48,6 +57,7 @@ def on_intent(intent_request, session):
 
 
 def get_wunderground_data(zip_code):
+    wunderground_api_key = get_encrypted_data('wunderground_api_key')
     url = "https://api.wunderground.com/api/{0}/forecast/geolookup/" \
           "conditions/q/{1}.json".format(wunderground_api_key, zip_code)
     r = requests.get(url)
